@@ -1,0 +1,52 @@
+.about h1{
+    font-size: calc(var(--index)*9);
+    color: var(--text-primary);
+    font-weight: bolder;
+    opacity: var(--text-opacity);
+    position: absolute;
+    top: 0;
+}
+.about{
+    position: relative;
+    margin-bottom: 8%;
+}
+
+.about-content{
+    padding-top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-content-detail {
+    margin-top: 13%;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+.about-content h6{
+    margin-top: 5%;
+    color: rgb(30, 30, 190);
+}
+.social-button{
+    padding: 3% 4%;
+    background-color: var(--icon-background);
+    border-radius: 100px;
+}
+.social-button i{
+    color: var(--text-primary);
+    transition: ease-in 0.2s;
+}
+.social-buttons i{
+    color: var(--text-primary);
+    transition: ease-in 0.2s;
+}
+.social-buttons{
+    padding: 3% 3%;
+    background-color: var(--icon-background);
+    border-radius: 100px;
+}
+.social-button i:hover{
+    color: white;
+}
+.social-buttons i:hover{
+    color: white;
+}
